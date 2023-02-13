@@ -1,0 +1,158 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+body {
+  background-image: url("./united.jpg");
+  position: relative;
+}
+body .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 622px;
+  height: 440px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #F5F5F5;
+  border-radius: 5px;
+}
+body .container .banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -815%);
+  width: 622px;
+  height: 27px;
+  background: #87BB34;
+  border-radius: 5px 5px 0px 0px;
+}
+body .container .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -220%);
+  width: 247px;
+  height: 79px;
+  background: url("./logoEloce.png");
+  z-index: 10;
+}
+body .container form {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+body .container form .input {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  width: 494px;
+  height: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 15px;
+  font-size: 0.9em;
+  margin-bottom: 7px;
+  color: rgba(0, 0, 0, 0.8);
+}
+body .container form .button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 200%);
+  width: 130px;
+  height: 40px;
+  background: #444444;
+  border-radius: 5px;
+  color: #F5F5F5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9em;
+}
+body .container form .button:hover {
+  background: #616060;
+}
+body .container a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 800%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

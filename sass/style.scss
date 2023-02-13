@@ -1,0 +1,97 @@
+@import "library/reset.scss";
+
+body {
+    background-image: url("./united.jpg");
+    position: relative;
+
+    .container{
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        width: 622px;
+        height: 440px;
+        // left: 529px;
+        // top: 260px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        background: #F5F5F5;
+        border-radius: 5px;
+
+        .banner {
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -815%);
+            width: 622px;
+            height: 27px;
+            // left: 529px;
+            // top: 260px;
+            background: #87BB34;
+            border-radius: 5px 5px 0px 0px;
+        }
+
+        .logo {
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -220%);
+            width: 247px;
+            height: 79px;
+            background: url("./logoEloce.png");
+            z-index: 10;
+        }
+        form {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -60%);
+
+            .input {
+                border: 1px solid rgba(0, 0, 0, 0.5);
+                border-radius: 5px;
+                width: 494px;
+                height: 40px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                padding-left: 15px;
+                font-size: 0.9em;
+                margin-bottom: 7px;
+                color: rgba(0, 0, 0, 0.8);
+            }
+            .button{
+                position: absolute;
+                top: 50%;
+                left:50%;
+                transform: translate(-50%, 200%);
+                width: 130px;
+                height: 40px;
+                background: #444444;
+                border-radius: 5px;
+                color: #F5F5F5;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 0.9em;
+                &:hover{
+                    background: #616060;
+                }
+    
+            }
+        }
+       
+        a{
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, 800%); 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 0.9em;
+            color: rgba(0, 0, 0, 0.8);
+            text-decoration: none;
+        }
+
+    }
+    
+   
+
+}
+
